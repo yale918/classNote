@@ -1,5 +1,4 @@
-
-
+<CLASS 1>
 
 科學研究
  ．特性
@@ -53,11 +52,153 @@ The Wheel of Science(科學之輪) >>> 有張圖要擷
  11)Qualitative Research：質性研究
  12)Interview：訪談
  13)Secondary Data：次級資料研究(不是自己整理，是經過整理的資料ex: 政府的open data 是經過整理過的)
- 
+
+外部效度(external validity)
+
  界定問題(Degree of Problem Definition)
   >> 根據界定程度不同 可分為三種研究
   1) Exploratory Research(探索性研究)：拿到健保局資料，讓他去跑，然後解釋 ex: would people be interested in out new product?
   2) Descriptive Research(敘述性研究)：已經知道資料間某些關聯 ex:what features do buyers prefer in our product
   3) Causal Research
 
- ．
+統計學概說
+ ．敘述統計(Descriptive Statistics)：僅描述統計資料本身，未擴大意義
+ ．統計推論(Inferential Statistics)：利用樣本資料(部分)，來推估母體(全部)表現，通常用於母體太大的時候
+
+母體與樣本
+ ．母體(population)：有限母體ex:全台灣大學生 / 無限母體ex:臉書使用者行為分析
+ ．樣本(sample)：
+
+母數(參數，parameter)：用來描述母體特徵
+ 1) 中央趨勢量(中心點)
+ 2) 分散度量(分散/集中)
+ 3) 偏態(左偏/右偏？)
+ 4) 峰態(高還低)
+  >>>> 常態分配好處就在：不用考慮偏態/峰態，只需要考慮 1) 2)．以及常態分配做任何的線性計算後，還是常態分配
+  >>>> 有母數統計：有母體參數特性
+  >>>> 無母數統計：無上述4項參數的統計
+
+統計量(statistics)：用來描述樣本
+
+一般化/概化(generalization) 外推效度
+
+資料衡量尺度(measurement)
+ ．名目尺度(nominal scale): 只代表 categorical 分類  沒有大小(不能比大小) ex: 性別 ---->> 眾數
+ ．順序尺度(ordinal scale): 能分類，也能比大小，但還是不能做加減乘除ex:有大小之分，但是距離不同，單位不同 ---->> 中位數
+    >>>> Qualitative 質性
+ ．等距尺度(interval scale): 可做加減乘，但不可作除法---->> 平均數
+ ．比率尺度(ratio scale): 通常具有絕對零點，可做除法
+    >>>>Quantitative 量化
+
+李克特量表(Likert scale)
+ >>>> 其實是順序尺度，但是在學術界，會upgrade上去做加減運算，因為沒有其他更好的方法．要upgrade需要有說法，否則會被質疑
+ >>>> 正確而言，資料型態取決於研究者的操作型定義
+ >>>> 降階：10~20,20~30,30~40 屬順序尺度   可降階 ->  20歲以下，非20歲以下
+ >>>> 升階：需要虛擬變數
+
+The Survey Method: Definition
+ ．潛在變項：對雇主的滿意度調查，問卷直接問對雇主滿不滿意，就是一種把潛在變項當成直接變項．
+    >>>> 應該是要為潛在變項的行為去設計．例如學生認不認真(X) 認真的學生什麼行為(Ｏ)
+ ．直接變項：
+
+
+<CLASS 2>
+
+常用抽樣方法
+ ．分層隨機抽樣（Stratified Random Sampling, SRS)：
+    1) 比例分配抽樣
+    2) 等量分配抽樣
+    3) 叢集取樣法：樣本內變異度夠高，足夠以一個cluster模擬整個母體．
+    4) 系統抽樣：決定第一個被抽出的個數
+
+Pre-test：資料量小
+
+Pilot：資料量大（為了測試取樣資料的信度/效度，或先偷跑一下統計分析ex:變異數，回歸等等）
+
+增加問卷回收率的方式：
+ ．cover letter：問卷內要有敘述，降低填問卷的人的疑慮（不要直接讓填問卷者看到問卷題目）
+ ．主題有趣程度
+ ．Anonymity（隱私性）
+ ．Incentives（獎勵品）：金錢，非金錢(有比沒有好）
+ ．平衡性：題目設計裡會有正向題/反向題（比例大約一半）．一個變數裡面有正向題，反向題，就會變得很難填寫
+
+ Errors（抽樣時常見誤差）
+ ．Sampling errors（抽樣誤差）
+ ．Non-Sampling error
+   > Systematic Errors：
+       Respondent errors:
+        ．不聯絡/拒絕聯絡
+        ．social desirability 迎合社會期待的違心回答
+        ．extremity 宗教狂熱或反社會 
+        ．interviewer bias 被錄影的時候
+       Measurement and Design
+        ．Measurement error 
+        ．Survey instrument design 問卷設計錯誤
+       Administrative errors
+        ．Sample selection error 變數設計錯誤
+
+A Quality Survey（一個好的調查）
+ ．Measurement Error
+ ．Common Method Bias/Variance（共同方法偏誤/變異）：整個調查都用同一個方法，受測者已經知道怎麼回應(看一題可以答三題)
+  > 解決：一個題目block裡面用2~3個變數（增加變異），出大約3~5題
+  > 論文上，改善CMV的幾種方法：調查前就要避免（調查後只能用統計方法驗證CMV嚴不嚴重），
+        > Time：用時間維度（不同時間點調查）
+        > Respondant：有的給A填，有的給B填寫，有的給C填，串起來就變一列資料
+        > Scale：用不同方法測試他(李克特啊，ＸＸＸ啊)
+
+Sampling Issues：
+ ．Selection of key informants：Score card
+ ．online surveys：線上問卷只說有效樣本數，而不說回收率（因為根本就沒樣本分母數字）
+
+R language：
+．R 
+．R Studio
+．R Commander
+
+-----------
+x=1:6    // x<-1:6
+mean(x)
+median(x)
+var(x)
+sd(x)
+
+source("c:\\r\\batch-ex.r")
+source("c:r/batch-ex.r")
+source("batch-ex.r")
+
+Ctrl + l : clear
+Ctrl + R : execute
+
+package: base, car
+
+summary()  //摘要報告
+
+
+z<-rchisq(1000,3) // r chi square 1000 sample, 3自由度
+hist(z)   // hist = histogram（直方圖）
+help()
+help.start()
+
+*環境設定*
+getwd()
+setwd("c:/r")
+ls()    // x
+memory.size()
+memory.limit()
+rm(x)
+rm(list=ls())
+
+sink("c:/r")
+sink()
+
+P圖17/31
+
+?car::Anova
+help("if")
+?"=="
+help.search("linear models")
+
+demo()
+demo(graphics)
+example(plot)
+
