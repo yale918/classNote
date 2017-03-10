@@ -202,3 +202,6 @@ demo()
 demo(graphics)
 example(plot)
 
+x<-rnorm(50) // r normal distribution n=50
+y<-rnorm(x) 
+plot(x,y)
